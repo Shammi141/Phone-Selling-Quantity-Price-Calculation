@@ -20,7 +20,7 @@ function updateCaseNumber(isIncrease){
         newCaseNumber = previousCaseNumber - 1;
     }
     caseNumberField.value = newCaseNumber;
-    return newCaseNumber;   //for price calculation
+    return newCaseNumber;   // needs for price calculation
 }
 
 //update of case price function
